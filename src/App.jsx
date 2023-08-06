@@ -1,9 +1,12 @@
 import './App.css'
 import Navbar from "./navbar/Navbar.jsx";
 import DayContent from "./Content/DayContent.jsx";
-import {Fragment} from "react";
+import {Fragment, useState } from "react";
+import InfoDaysList from './data/Data.js';
 
 function App() {
+
+  const [infoDays, setInfoDays] = useState(InfoDaysList);
 
   return (
     <Fragment>
@@ -12,8 +15,11 @@ function App() {
           <Navbar />
         </header>
         <main className="overflow-y-scroll no-scrollbar">
-          <DayContent day="14" />
-          <DayContent day="15" />
+          {
+            infoDays.map((info, index) => <DayContent key={index} infoDay={info} /> )
+          }
+{/*          <DayContent day="14" />
+          <DayContent day="15" />*/}
         </main>
       </div>
     </Fragment>

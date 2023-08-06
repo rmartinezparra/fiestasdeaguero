@@ -1,7 +1,7 @@
-function DayContent({day}) {
+function DayContent({infoDay}) {
   return (
     <section className="w-full h-screen border border-blue-500">
-      <div>Día {day}</div>
+      <div>Día {infoDay.day}</div>
     </section>
   );
 }
