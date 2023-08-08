@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'montserrat': ['Montserrat'],
+      'bodoni': ['Bodoni'],
+    },
   },
   plugins: [],
 }

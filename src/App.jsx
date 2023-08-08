@@ -4,6 +4,10 @@ import DayContent from "./Content/DayContent.jsx";
 import {Fragment, useState } from "react";
 import InfoDaysList from './data/Data.js';
 
+//fonts
+import "./assets/fonts/Montserrat-Regular.ttf";
+import "./assets/fonts/BodoniModa-Regular.ttf";
+
 function App() {
 
   const [infoDays, setInfoDays] = useState(InfoDaysList);
@@ -18,8 +22,6 @@ function App() {
           {
             infoDays.map((info, index) => <DayContent key={index} infoDay={info} /> )
           }
-{/*          <DayContent day="14" />
-          <DayContent day="15" />*/}
         </main>
       </div>
     </Fragment>
