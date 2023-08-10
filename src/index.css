@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat-Regular"), url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-family: "Brixton";
+  src: local("Montserrat-Regular"), url("./assets/fonts/Brixton-Book.ttf") format("truetype");
 }
 
 @font-face {

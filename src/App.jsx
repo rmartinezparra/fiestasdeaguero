@@ -5,7 +5,7 @@ import {Fragment, useState } from "react";
 import InfoDaysList from './data/Data.js';
 
 //fonts
-import "./assets/fonts/Montserrat-Regular.ttf";
+import "./assets/fonts/Brixton-Book.ttf";
 import "./assets/fonts/BodoniModa-Regular.ttf";
 
 function App() {

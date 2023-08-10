@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'montserrat': ['Montserrat'],
+      'brixton': ['Brixton'],
       'bodoni': ['Bodoni'],
     },
   },
