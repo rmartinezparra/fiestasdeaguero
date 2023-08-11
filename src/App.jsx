@@ -14,15 +14,17 @@ function App() {
 
   return (
     <Fragment>
-      <div className="w-full h-screen bg-slate-800 flex flex-col scroll-smooth">
-        <header>
-          <Navbar />
-        </header>
-        <main className="overflow-y-scroll no-scrollbar">
-          {
-            infoDays.map((info, index) => <DayContent key={index} infoDay={info} /> )
-          }
-        </main>
+      <div className="flex flex-col scroll-smooth">
+        <div className="bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600">
+          <header className="">
+            <Navbar />
+          </header>
+          <main className="overflow-y-scroll no-scrollbar">
+            {
+              infoDays.map((info, index) => <DayContent key={index} infoDay={info} /> )
+            }
+          </main>
+        </div>
       </div>
     </Fragment>
   );
