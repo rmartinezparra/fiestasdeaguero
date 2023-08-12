@@ -197,7 +197,7 @@ export default [
       },
       {
         time: "18:30",
-        description: "Recorrido de casa."
+        description: "Recorrido de caza."
       },
       {
         time: "20:00",
