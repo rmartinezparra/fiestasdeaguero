@@ -8,6 +8,7 @@ import { HeaderDayProvider } from './context/HeaderDayContext.jsx';
 //fonts
 import "./assets/fonts/Brixton-Book.ttf";
 import "./assets/fonts/BodoniModa-Regular.ttf";
+import DayCover from "./Content/DayCover.jsx";
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
               <Navbar />
             </header>
             <main className="overflow-y-scroll no-scrollbar">
-
+              <DayCover />
               {
                 infoDays.map((info, index) => <DayContent key={index} infoDay={info} /> )
               }
